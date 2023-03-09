@@ -9,12 +9,12 @@ pipeline{
                           
 }
 }
-}
+
            agent {
                     label "slave-1"
                   }
 
-               stages { 
+           
                      stage ("onslave"){
                        steps{
                         echo "helo"
@@ -23,7 +23,7 @@ pipeline{
 }
 
 
-}
+
 
 }
 
