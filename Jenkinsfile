@@ -11,7 +11,9 @@ pipeline{
 }
 
            agent {
-                    label "slave-1"
+                    label {
+                             label "slave-1"
+                    }
                   }
 
            
